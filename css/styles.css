@@ -155,7 +155,7 @@ body {
   color: #404bbf;
 }
 
-.menu-link.active:active::after {
+.menu-link.active::after {
   position: absolute;
   left: 0;
   bottom: -1px;
