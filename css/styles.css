@@ -400,7 +400,6 @@ body {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 .footer-content-container {
   margin-right: 120px;
