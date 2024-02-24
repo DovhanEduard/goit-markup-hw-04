@@ -399,9 +399,12 @@ body {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
   gap: 120px;
 }
-
+.footer-content-container {
+  margin-right: 120px;
+}
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -413,16 +416,21 @@ body {
   color: #f4f4fd;
 }
 
-.social-media-footer-title {
-  margin-bottom: 16px;
+.social-media-footer-text {
+  margin-bottom: 18px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
 }
 
-.social-media-footer-color:hover {
+.social-media-footer-color:hover,
+.social-media-footer-color:focus {
   background-color: #31d0aa;
+}
+
+.social-list.social-list-footer {
+  gap: 16px;
 }
 /* ============= /Footer section styles ============= */
