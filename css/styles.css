@@ -317,7 +317,7 @@ body {
 }
 
 .team-list-item:hover .social-list-link,
-.team-list-item:focus .social-list-link {
+.social-list-link:focus {
   background-color: #404bbf;
 }
 
