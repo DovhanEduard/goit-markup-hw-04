@@ -198,6 +198,7 @@ body {
       rgba(46, 47, 66, 0.7)
     ),
     url("../images/hero/hero-bg.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
