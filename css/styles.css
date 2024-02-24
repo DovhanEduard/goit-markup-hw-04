@@ -80,7 +80,8 @@ body {
 
 .social-list {
   display: flex;
-  column-gap: 24px;
+  justify-content: center;
+  gap: 24px;
 }
 .social-list-link {
   display: flex;
@@ -298,7 +299,7 @@ body {
 }
 
 .team-list-container {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-list-title {
@@ -315,7 +316,8 @@ body {
   margin-bottom: 8px;
 }
 
-.team-list-item:hover .social-list-link {
+.team-list-item:hover .social-list-link,
+.team-list-item:focus .social-list-link {
   background-color: #404bbf;
 }
 
